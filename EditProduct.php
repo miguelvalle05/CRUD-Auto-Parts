@@ -18,7 +18,7 @@
 		require_once("../../../programas/utiles/funciones_globales.php");
 
 ?>
-<h1 class="labeltopicmain">Productos</h1>
+<h1 class="labeltopicmain">Editar Productos </h1>
 <div class="container">
 
 
@@ -56,6 +56,20 @@
             </div>
             </div>
 
+            <div class="col-md-3">
+
+           
+            
+            
+            
+            <label class="labelbutton"></label>
+            <div class="input-group mb-3">
+            <button id="btnNewSearch" name="btnNewSearch" type="button" class="btn btn-primary" >
+					New Search
+				</button>
+            </div>
+            </div>
+
         
  
 </div>
@@ -67,7 +81,7 @@
 <span class="man" name="attributes" id="attributes">
    
  
-
+<?php echo $_POST['attributes'];?><?php echo $_POST['attributes'];?>
 </span>	
 
 
@@ -211,6 +225,14 @@
 				</button>
 
 </div>
+<br>
+<div class="d-grid gap-2 col-4 mx-auto">
+    
+                <button id="btnDelete" name="btnDelete" type="button" class="btn btn-danger" >
+					Delete
+				</button>
+
+</div>
 
 
 
@@ -225,6 +247,7 @@
 
 <footer>
    <p style="text-align:center"> <img src="./imagenes/footer.png" width="125" height="55" /> </p>
+  
    <p style="text-align:center "> <strong><i class="fas fa-laptop-code"> </i> Miguel Valle</strong></p>
 </footer>
 
@@ -237,6 +260,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script src="./js/sweetalert2.all.js"></script>
-<script language="javascript"src="./js/AddProduct.js"></script>
+<script language="javascript"src="./js/EditProduct.js"></script>
 </body>
 </html>
