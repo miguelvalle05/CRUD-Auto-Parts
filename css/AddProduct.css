@@ -1,0 +1,25 @@
+.labeltopicmain {
+    color: #d77907;
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.labeltopic {
+    color: #d77907;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.labeltittle {
+    color: #eac18f;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.select select {
+    color: gray;
+}
