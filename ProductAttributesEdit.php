@@ -1,6 +1,6 @@
 <?
 
-include("./funciones.php");
+include("./Functions.php");
 $conexion = conectar();
 $str_json = file_get_contents('php://input');
 

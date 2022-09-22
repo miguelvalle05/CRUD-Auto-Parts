@@ -2,7 +2,7 @@
 
 
 
-include("./funciones.php");
+include("./Functions.php");
 $conexion = conectar();
 $codeV=$_POST['codeV'];
 //echo $codigo;

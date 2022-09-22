@@ -1,7 +1,7 @@
 <?php
 
 
-include("./funciones.php");
+include("./Functions.php");
 $conexion=conectar();
 //if ($_POST['id_marca2']!="")$id_category = $_POST['id_marca2'];
  $id_brand = $_POST['id_brand'];

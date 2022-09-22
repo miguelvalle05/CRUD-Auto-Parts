@@ -5,7 +5,7 @@
 
     <body>
     <?php		
-		include("./funciones.php");
+		include("./Functions.php");
         $option = $_POST['option'];
         $codeV= $_POST['codeV'];
         
@@ -508,13 +508,9 @@
                                     NULL ,  '".$codeV."',  '".$desclarga."',  '".$descfinalc."',  '$descripcionw','".$descCortaW."','$meta_description','$descfinalcRadec');";
                                 $result = $conexion->query($consulta);
                                 $conexion->close();
-                                generaName($codeV);
-                                genKeyword($codeV);
-                                generaTags($codeV);
-                                generaTabApp($codeV);
-                                ActualizaWeb($codeV);
-                                ActualizaIntesys($codeV,$desclarga,$descfinalc);
-                                updateApplicationWeb($codeV);
+                                
+                              
+                               
                                 
                                 
                                 return "<br /><br /><br />$codeV<br /><strong>DESCRIPCION LARGA:</strong><br />".$desclarga."<br /><br /><strong>DESCRIPCION CORTA:<br /></strong>".$descfinalc."<br /><br /><strong>DESCRIPCION WEB:</strong>".$descripcionw."<br />$tableapp"."<br /><br /><strong>DESCRIPCION CORTA RADEC:</strong>".$descfinalcRadec."<br />$tableapp";

@@ -1,6 +1,6 @@
 <?php
 
-include("./funciones.php");
+include("./Functions.php");
 
 $conexion=conectar();
 $id_partType = $_POST['id_partType'];

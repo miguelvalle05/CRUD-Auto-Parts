@@ -1,6 +1,6 @@
 <?php
 
-include("./funciones.php");
+include("./Functions.php");
 $conexion=conectar();
 
 $id_model = $_POST['id_model'];

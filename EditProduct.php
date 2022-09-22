@@ -13,9 +13,9 @@
 </head>
 <body>
 <?php		
-		include("./funciones.php");
+		include("./Functions.php");
 		$conexion = conectar();
-		require_once("../../../programas/utiles/funciones_globales.php");
+		
 
 ?>
 <h1 class="labeltopicmain">Editar Productos </h1>
